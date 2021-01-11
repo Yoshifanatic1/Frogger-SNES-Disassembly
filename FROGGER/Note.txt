@@ -1,0 +1,11 @@
+- This game only took me 9 hours to fully disassemble the code and a day overall to get the disassembly to assemble 100%.
+
+- Most of the audio engine is split up into packets of 256 bytes. Since this would be annoying to work with, I made a macro that will automatically split the file in this manner when it's inserted.
+Why this was done in the first place, I don't know. My guess was that it was an attempt to make it harder for people like me to reverse engineer it.
+
+- I put more effort into making this disassembly than the developers did making this port of Frogger. Yes, this game was lazily made. This is an arcade port that:
+	- Has no music, even though the original arcade game had some music.
+	- Has basic sound effects, the number of which could be counted on one hand.
+	- Has no settings to customize the game, aside from selecting a 1-2 player game.
+	- Has underwhelming graphics, especially considering that this was a 1998 release.
+	- Has no other games included on the cart, just a port of the original Frogger.
